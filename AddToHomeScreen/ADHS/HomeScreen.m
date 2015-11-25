@@ -192,7 +192,7 @@ static const int ddLogLevel = LOG_LEVEL_VERBOSE;
 - (void)applicationDidEnterBackground:(UIApplication *)application{
     @synchronized(self) {
         if (_server.isRunning) {
-            [_server stop];
+//            [_server stop];
         }
     }
 }
